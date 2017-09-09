@@ -1,15 +1,25 @@
 {
   "name": "softtest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "jest": "^20.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/58660075/Tennis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/58660075/Tennis/issues"
+  },
+  "homepage": "https://github.com/58660075/Tennis#readme",
+  "description": ""
 }
