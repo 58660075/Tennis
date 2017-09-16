@@ -2,14 +2,12 @@
   "name": "softtest",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "jest": "^20.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^20.0.4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
